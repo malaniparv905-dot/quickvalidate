@@ -1,0 +1,37 @@
+{
+  "name": "parv-quickvalidate",
+  "version": "1.0.0",
+  "description": "A tiny, dependency-free JavaScript validation toolkit for common form inputs.",
+  "type": "module",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "validation",
+    "javascript",
+    "email",
+    "password",
+    "phone",
+    "url",
+    "forms",
+    "zero-dependency"
+  ],
+  "author": "Parv Malani",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
